@@ -1,0 +1,737 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>GEN Ω — Haute Streetwear &amp; Boxy Silhouettes // Drop 01</title>
+<!-- Tailwind CSS v3 with Forms and Container Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<!-- Tailwind Custom Configuration -->
+<script>tailwind.config = {theme: {extend: {colors: {obsidian: "#0A0A0A", bone: "#F8F8F6", fieryRed: "#E50000", deluluPink: "#FF1A75", waGreen: "#25D366", technicalGray: "#E5E5E5", "surface-bright": "#faf7f2", "surface-container-low": "#f2ede5", "on-error": "#ffffff", "inverse-on-surface": "#f5f0e8", "on-primary-container": "#1a1a1a", "surface-variant": "#e8e3da", "surface-tint": "#1a1a1a", "on-primary": "#ffffff", "surface-container-highest": "#e2ddd4", "surface-dim": "#d6d1c9", error: "#cc0000", "on-primary-fixed-variant": "#1a1a1a", "on-tertiary-container": "#1a1a1a", "secondary-fixed": "#ffdad6", "tertiary-fixed-dim": "#a8c6ff", "on-secondary": "#1a1a1a", "primary-fixed-dim": "#e6b800", "on-tertiary-fixed": "#1a1a1a", "on-surface": "#1a1a1a", "tertiary-fixed": "#d6e3ff", "primary-container": "#ffcc00", "on-tertiary": "#ffffff", "inverse-surface": "#1a1a1a", "error-container": "#ffdad6", "inverse-primary": "#f5f0e8", "on-primary-fixed": "#1a1a1a", "secondary-fixed-dim": "#ffb3ab", outline: "#1a1a1a", "surface-container": "#eee9e0", "on-secondary-fixed": "#1a1a1a", surface: "#f5f0e8", "on-tertiary-fixed-variant": "#1a1a1a", "on-background": "#1a1a1a", "surface-container-high": "#e8e3da", "on-surface-variant": "#4a4a4a", background: "#f5f0e8", primary: "#1a1a1a", "on-secondary-container": "#1a1a1a", secondary: "#e63b2e", "on-error-container": "#93000a", tertiary: "#0055ff", "outline-variant": "#d0cbc3", "surface-container-lowest": "#ffffff", "secondary-container": "#ffdad6", "tertiary-container": "#d6e3ff", "on-secondary-fixed-variant": "#1a1a1a", "primary-fixed": "#ffcc00"}, fontFamily: {sans: ["\"Helvetica Neue\"", "Helvetica", "Arial", "system-ui", "-apple-system", "sans-serif"], mono: ["\"SF Mono\"", "Menlo", "Monaco", "\"Courier New\"", "monospace"], headline: ["Space Grotesk"], display: ["Space Grotesk"], body: ["Inter"], label: ["Space Grotesk"]}, letterSpacing: {editorial: "0.22em", condensed: "-0.05em", tighter: "-0.04em"}, fontSize: {}, borderRadius: {DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem"}}}};</script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="base-styling">
+    ::selection {
+      background-color: #0A0A0A;
+      color: #FFFFFF;
+    }
+    .technical-grid {
+      background-size: 32px 32px;
+      background-image: linear-gradient(to right, rgba(0,0,0,0.04) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(0,0,0,0.04) 1px, transparent 1px);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 3px;
+      width: 3px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #0A0A0A;
+    }
+    .hairline-b {
+      border-bottom: 1px solid #0A0A0A;
+    }
+    .hairline-r {
+      border-right: 1px solid #0A0A0A;
+    }
+    .hairline-l {
+      border-left: 1px solid #0A0A0A;
+    }
+    .hairline-t {
+      border-top: 1px solid #0A0A0A;
+    }
+    .hairline-all {
+      border: 1px solid #0A0A0A;
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="bg-[#FFFFFF] text-obsidian antialiased selection:bg-obsidian selection:text-white font-sans">
+<!-- BEGIN: AnnouncementBar -->
+<aside class="bg-obsidian text-white text-[10px] sm:text-[11px] font-mono tracking-editorial py-2.5 px-4 text-center uppercase border-b border-black" data-purpose="announcement-banner">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<span class="hidden sm:inline-block font-mono text-neutral-400">[SPEC-GSM: 240]</span>
+<span class="inline-flex items-center gap-2 mx-auto sm:mx-0">
+<span class="w-1.5 h-1.5 rounded-full bg-fieryRed animate-ping"></span>
+      DROP 01 LIVE // DIRECT CONCIERGE ORDERING VIA WHATSAPP // ALL INDIA EXPRESS COURIER
+    </span>
+<span class="hidden sm:inline-block font-mono text-neutral-400">[RUNWAY GRID ED. 01]</span>
+</div>
+</aside>
+<!-- END: AnnouncementBar -->
+<!-- BEGIN: StickyNavigation -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-black transition-all">
+<nav aria-label="Main Navigation" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logotype -->
+<div class="flex items-center gap-4">
+<a class="text-3xl font-black tracking-tighter uppercase flex items-center gap-1 group" href="#">
+<span class="">GEN</span>
+<span class="text-fieryRed text-3xl leading-none transition-transform group-hover:rotate-12 duration-300">Ω</span>
+</a>
+<span class="hidden md:inline-block text-[10px] font-mono tracking-widest px-2 py-0.5 border border-black uppercase text-neutral-600 bg-bone">
+        [DROP 01 // 2026]
+      </span>
+</div>
+<!-- Navigation Links -->
+<div class="hidden lg:flex items-center space-x-8 text-xs font-mono tracking-widest uppercase">
+<a class="text-obsidian hover:text-fieryRed transition-colors font-semibold" href="#unisex-section">[01] MEN / UNISEX</a>
+<a class="text-obsidian hover:text-deluluPink transition-colors font-semibold" href="#womens-section">[02] WOMEN</a>
+<a class="text-neutral-600 hover:text-obsidian transition-colors" href="#about-section">[03] ABOUT</a>
+<a class="text-neutral-600 hover:text-obsidian transition-colors" href="#craft-section">[04] CRAFT</a>
+</div>
+<!-- WhatsApp Order CTA Pill -->
+<div class="flex items-center gap-3">
+<a class="inline-flex items-center gap-2.5 bg-obsidian hover:bg-neutral-800 text-white text-[11px] font-mono tracking-widest px-4 sm:px-5 py-2.5 rounded-full border border-black transition-all shadow-sm active:scale-95 group" data-purpose="nav-whatsapp-cta" href="https://wa.me/919574870104?text=Hi%20GEN%20%CE%A9%2C%20I%20want%20to%20inquire%20about%20your%20latest%20collection." rel="noopener noreferrer" target="_blank">
+<svg class="w-3.5 h-3.5 fill-waGreen group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+<span class="">ORDER VIA WHATSAPP</span>
+</a>
+</div>
+</nav>
+</header>
+<!-- END: StickyNavigation -->
+<!-- BEGIN: HeroSection -->
+<section class="relative bg-white border-b border-black overflow-hidden technical-grid" data-purpose="hero-section" id="hero">
+<!-- Editorial Backdrop Geometry & Monogram Watermark -->
+<div class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 select-none opacity-[0.03] text-[45vw] font-black leading-none text-black -z-0">
+    Ω
+  </div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 lg:pt-16 lg:pb-20 relative z-10">
+<!-- Technical Eyebrow Header -->
+<div class="flex items-center justify-between border-b border-black pb-3 mb-8">
+<div class="flex items-center gap-3">
+<span class="inline-block w-2.5 h-2.5 bg-fieryRed"></span>
+<p class="font-mono text-xs uppercase tracking-editorial text-black font-bold">COLLECTION 2026 // DROP 01</p>
+</div>
+<span class="font-mono text-[11px] text-neutral-500 uppercase tracking-widest hidden sm:inline">[STRICT HIGH-KEY INDUSTRIAL SILHOUETTE]</span>
+</div>
+<!-- Massive Bold Headline -->
+<div class="max-w-5xl">
+<h1 class="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.9] text-obsidian mb-8">
+        UNAPOLOGETIC <br class="hidden sm:inline">
+<span class="text-neutral-400">SILHOUETTES.</span><br>
+        NO COMPROMISE.
+      </h1>
+<p class="text-neutral-700 text-base sm:text-lg lg:text-xl font-normal max-w-2xl leading-relaxed mb-10">
+        Engineered relaxed tailoring, custom heavyweight cotton, and unapologetic statement streetwear built exclusively for this generation.
+      </p>
+<!-- Dual CTAs -->
+<div class="flex flex-wrap items-center gap-4">
+<a class="px-8 py-4 bg-obsidian hover:bg-neutral-800 text-white font-mono text-xs tracking-editorial uppercase transition-all border border-black active:scale-95 flex items-center gap-2" href="#unisex-section">
+<span class="">EXPLORE LOOKBOOK</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-down" aria-hidden="true" class="lucide lucide-arrow-down w-4 h-4"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg>
+</a>
+<a class="px-8 py-4 bg-white hover:bg-neutral-100 text-obsidian border border-black font-mono text-xs tracking-editorial uppercase transition-all flex items-center gap-2 active:scale-95" href="https://wa.me/919574870104?text=Hi%20GEN%20%CE%A9%2C%20I%20would%20like%20to%20speak%20with%20your%20concierge%20stylist." rel="noopener noreferrer" target="_blank">
+<span class="w-2 h-2 rounded-full bg-waGreen"></span>
+<span class="">TALK TO CONCIERGE</span>
+</a>
+</div>
+</div>
+<!-- Hero Multi-Panel Runway Grid -->
+<div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-0 border border-black divide-x divide-y md:divide-y-0 divide-black bg-white">
+<!-- Item 1: Pinstripe Front -->
+<div class="group relative p-4 lg:p-6 bg-white hover:bg-bone transition-colors flex flex-col justify-between">
+<div class="flex justify-between items-center font-mono text-[10px] text-neutral-500 mb-3">
+<span class="">[REF: PS-01F]</span>
+<span class="text-obsidian font-bold">FRONT</span>
+</div>
+<div class="aspect-square w-full overflow-hidden flex items-center justify-center p-2">
+<img alt="GEN Ω Boxy Fit Pinstripe Shirt Front" class="object-contain w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEdCdlMCWypNTMOxLhgr3nWnM0rd9i6zxW4MZA6izcqWYZ8meTzAUq_m00qUPCzOBlaFAfm-LPI_6nleaP51gd4aYoYNE9WFH4glGBoG7e2zPy89s6nz2OVqjtn3-sCbEl-EbrRaCv_7PURY4rl4WDOp4_UwxNbdc-ssJc6FYxZ9DiYfA6faLl_LT6UWAVYefsXAghzfuist_lCpRlpN3L3zK2KQUsqYPP7qSGR_2lvg6on_O2HI6aFNzDyZudeif2Fw">
+</div>
+<div class="mt-4 pt-3 border-t border-neutral-200 flex justify-between items-baseline font-mono text-[10px] sm:text-xs">
+<span class="uppercase font-bold">PINSTRIPE RESORT</span>
+<span class="text-neutral-500">₹999</span>
+</div>
+</div>
+<!-- Item 2: Pinstripe Back -->
+<div class="group relative p-4 lg:p-6 bg-white hover:bg-bone transition-colors flex flex-col justify-between">
+<div class="flex justify-between items-center font-mono text-[10px] text-neutral-500 mb-3">
+<span class="">[REF: PS-01B]</span>
+<span class="text-fieryRed font-bold">STATEMENT</span>
+</div>
+<div class="aspect-square w-full overflow-hidden flex items-center justify-center p-2">
+<img alt="GEN Ω Boxy Fit Pinstripe Shirt Back" class="object-contain w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPiyOG06c2pcgeOoi39DMhwvsBzn6Fo7wLM3WSsWV9dd-9iTeb1HRY-ahOLEo9Ife4LZPWu4uo5O0Lxz9DXyDkgjsyhIBG9v8Im9z1hMLH46NhQpO4ZOlxDK7SJ5_zM_CXfDpyB5vFbfQzENkTP6_xdL_qLOPDU0swsZGFIx9mI1I5ee6NokyuzhRgQxB0fWXyrQp5z9JKV15k40YP82btLQGArRCwH1xyaIhKlkYW8pyB1ZoZwzArbxb6lE7ShjbeIg">
+</div>
+<div class="mt-4 pt-3 border-t border-neutral-200 flex justify-between items-baseline font-mono text-[10px] sm:text-xs">
+<span class="uppercase font-bold">SORRY MOM</span>
+<span class="text-neutral-500">UNISEX</span>
+</div>
+</div>
+<!-- Item 3: Delulu Baby Tee -->
+<div class="group relative p-4 lg:p-6 bg-white hover:bg-bone transition-colors flex flex-col justify-between">
+<div class="flex justify-between items-center font-mono text-[10px] text-neutral-500 mb-3">
+<span class="">[REF: BT-01W]</span>
+<span class="text-deluluPink font-bold">HOT MAGENTA</span>
+</div>
+<div class="aspect-square w-full overflow-hidden flex items-center justify-center p-2">
+<img alt="DELULU IS THE SOLULU Baby Tee" class="object-contain w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9E2-PZUqPZMGcxhlWFgtBPIQjVbzBXGr9lL3kWtkeAIMX7nwfUZHKuKsHVJfLaV0hOBYr1ab3udIcWrbvc8bgOu-5XMekv8icBv7zNqbSx6jeQwNf2XWIgRcQm28CRd_eX69hkWGOBTJs0Ba4yRMBP_f3YpRN64vZ4_ipyvRXR9llZX5yDBJjz0UsyQaHm5vXWAkBbzyxor9owgRhfkFuaUXyHAhQ5ntmMRkgbQdExBM9fNPwWqtOPj1FH4_Eg-vZ7A">
+</div>
+<div class="mt-4 pt-3 border-t border-neutral-200 flex justify-between items-baseline font-mono text-[10px] sm:text-xs">
+<span class="uppercase font-bold text-deluluPink">DELULU SOLULU</span>
+<span class="text-neutral-500">₹599</span>
+</div>
+</div>
+<!-- Item 4: Kaleshi Aurat Baby Tee -->
+<div class="group relative p-4 lg:p-6 bg-white hover:bg-bone transition-colors flex flex-col justify-between">
+<div class="flex justify-between items-center font-mono text-[10px] text-neutral-500 mb-3">
+<span class="">[REF: BT-02B]</span>
+<span class="text-fieryRed font-bold">RED ON OBSIDIAN</span>
+</div>
+<div class="aspect-square w-full overflow-hidden flex items-center justify-center p-2">
+<img alt="KALESHI AURAT Baby Tee" class="object-contain w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_LCPM5-Gf_NknxR4IGDuUYSOkuI4AlcToggV9ckkMqkpMSzbBcUh5c2L2KN_16ECv9YvAVkfuaZQA1OKsYQ1FDLycmkxia7g7dHDDYj837kwc0luFVyFn--lI4Wnm-4_TxnzfjgO9xO95ZTQxk1zwy0S47KIvmMRixigRqfEivwp38PqYu_w7alECEXBlSA0A4zSnuleQmLqnYIi_PCX0RSCSvD-cJyA0PTm4obBgVb08YOHVaoEfYcVwr8MYW9viRA">
+</div>
+<div class="mt-4 pt-3 border-t border-neutral-200 flex justify-between items-baseline font-mono text-[10px] sm:text-xs">
+<span class="uppercase font-bold text-fieryRed">KALESHI AURAT</span>
+<span class="text-neutral-500">₹599</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: EthosSection -->
+<section class="py-20 lg:py-24 bg-white border-b border-black" data-purpose="brand-ethos" id="about-section">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+<!-- Left Column: Editorial Quote -->
+<div class="lg:col-span-5 border-l-2 border-black pl-6 sm:pl-8">
+<p class="font-mono text-xs uppercase tracking-editorial text-neutral-500 mb-4">[03] BRAND PHILOSOPHY</p>
+<blockquote class="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tighter leading-none text-obsidian">
+          "WE DON'T DO BASIC. <br>
+          WE DO <span class="underline decoration-fieryRed decoration-4 underline-offset-4">STATEMENTS</span>."
+        </blockquote>
+<div class="mt-8 font-mono text-xs text-neutral-500 space-y-1">
+<p class="">LABEL: GEN Ω / FOUNDED 2026</p>
+<p class="">EDITION: STRICTLY LIMITED RUNS</p>
+<p class="">SPEC-GSM: 240 HIGH-DENSITY WEAVE</p>
+</div>
+</div>
+<!-- Right Column: Narrative & Technical Spec Badges -->
+<div class="lg:col-span-7 space-y-6 text-neutral-700 text-sm sm:text-base leading-relaxed">
+<p class="font-bold text-obsidian text-lg">
+          GEN Ω was built to break away from sterile, cookie-cutter fast fashion. We treat garments as high-contrast canvases reflecting the bold, unfiltered voice of modern youth culture.
+        </p>
+<p class="">
+          Every piece is cut with exaggerated wide boxy proportions, dropped shoulder lines, and calculated crops that fall naturally without clinging. We manufacture in high-GSM structured cottons, finished with archival screen print methods and rich high-stitch-density embroideries that outlast standard wash cycles.
+        </p>
+<p class="text-xs font-mono text-neutral-500 border-l border-neutral-300 pl-3">
+          Zero friction ordering. No shopping cart clutter. Real human concierge styling advice via WhatsApp direct desk.
+        </p>
+<!-- Technical Specs Grid -->
+<div class="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-2">
+<div class="p-3 border border-black text-center font-mono">
+<span class="block text-[10px] text-neutral-400">[FABRIC]</span>
+<span class="text-xs font-bold text-obsidian">100% HEAVY COTTON</span>
+</div>
+<div class="p-3 border border-black text-center font-mono">
+<span class="block text-[10px] text-neutral-400">[SILHOUETTE]</span>
+<span class="text-xs font-bold text-obsidian">CUSTOM BOXY FIT</span>
+</div>
+<div class="p-3 border border-black text-center font-mono">
+<span class="block text-[10px] text-neutral-400">[RELEASE]</span>
+<span class="text-xs font-bold text-obsidian">DROP RUN 01</span>
+</div>
+<div class="p-3 border border-fieryRed text-center font-mono bg-fieryRed/5">
+<span class="block text-[10px] text-fieryRed">[MANIFESTO]</span>
+<span class="text-xs font-bold text-fieryRed">FOR UNFILTERED</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: EthosSection -->
+<!-- BEGIN: UnisexShirtSection -->
+<section class="py-20 lg:py-24 bg-white border-b border-black" data-purpose="product-unisex-shirt" id="unisex-section">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-6 border-b border-black">
+<div>
+<span class="font-mono text-xs uppercase tracking-editorial text-fieryRed font-bold">[01] UNISEX &amp; MEN'S EDITIONS</span>
+<h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tighter mt-2 text-obsidian">BOXY FIT PINSTRIPE SHIRT</h2>
+<p class="text-neutral-500 font-mono text-xs mt-1">SKY BLUE &amp; CHALK VERTICAL STRIPES / RESORT COLLAR / STATEMENT BACK</p>
+</div>
+<div class="mt-4 md:mt-0 text-left md:text-right">
+<div class="flex items-baseline gap-3 md:justify-end">
+<span class="text-3xl sm:text-4xl font-black text-obsidian">₹999.00</span>
+<span class="text-lg text-neutral-400 line-through">₹1,399.00</span>
+</div>
+<span class="inline-block mt-1 font-mono text-[10px] bg-fieryRed text-white px-2 py-0.5 uppercase tracking-widest font-semibold">SAVE 29% // LAUNCH PRICE</span>
+</div>
+</div>
+<!-- Product Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+<!-- Left: Interactive Gallery -->
+<div class="lg:col-span-7">
+<div class="border border-black p-4 sm:p-8 bg-bone relative min-h-[440px] sm:min-h-[580px] flex items-center justify-center">
+<div class="absolute top-4 left-4 z-10 flex flex-col gap-1.5 font-mono text-[10px] uppercase">
+<span class="bg-black text-white px-2.5 py-1 font-bold" id="shirt-badge-title">FRONT VIEW // "GEN Ω" CHEST EMBROIDERY</span>
+<span class="bg-white border border-black px-2 py-0.5 text-neutral-700">SPEC: UNISEX RELAXED RESORT</span>
+</div>
+<!-- Front Image -->
+<img alt="Boxy Fit Pinstripe Shirt Front" class="w-full max-w-[500px] h-auto object-contain block transition-opacity duration-300" id="shirt-img-front" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4b0frZDAb_uvbK6B3HLbHscPt7BhaUY_ATkYGLdI55Y3QVM4Ppddl90uS9zYpoTZgVtEl_Dvg5aaxku9sGzUZU7sfECKA1vlpcBATt4UrGqtdNXtVzDGbpoLyjfnzgey5zawobUkm8Vpl2AQzedkENWQ8-n55I4EJQXOzkpvQ1bGEb-XkmsW8Sk8vvYskQj-zFRHiXgavWvljqDBo3oo_CzVPdMEA7yOk29wFeuEbqhQ8fRODLZZHUeicLx1p1OG-UA">
+<!-- Back Image -->
+<img alt="Boxy Fit Pinstripe Shirt Back" class="w-full max-w-[500px] h-auto object-contain hidden transition-opacity duration-300" id="shirt-img-back" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGO28UiwIbjsEWTmrJ90omPugmQEwz2uSGlFHk5yVyAahaoKZjXAtiWLPThPfXiegBlEe4ufPBVoi-nVi9gMszX8ECu2lMKMWKRSo5kADVNSz70EpN0WIiGKrG4_NNgKO6Inm0exHIe036-UQCaOcdt_FBOQA3QXd_18ggy3WtJO1hS_MIK7CU8xFS9nPRUFYESqG9Y16I18Hc6033yJhw3Ki4Th6IWgssGmKz8Ms2iauQ55R8hi986imB61_Yu-BWog">
+</div>
+<!-- View Switcher Tabs -->
+<div class="grid grid-cols-2 gap-0 border-x border-b border-black">
+<button class="py-3 px-4 text-xs font-mono tracking-widest uppercase bg-obsidian text-white border-r border-black flex items-center justify-center gap-2 transition-colors cursor-pointer" id="btn-tab-front" onclick="setShirtView('front')" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="eye" aria-hidden="true" class="lucide lucide-eye w-3.5 h-3.5"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></svg>
+<span class="">[ VIEW 01: FRONT CHEST ]</span>
+</button>
+<button class="py-3 px-4 text-xs font-mono tracking-widest uppercase bg-white text-neutral-700 hover:bg-neutral-100 flex items-center justify-center gap-2 transition-colors cursor-pointer" id="btn-tab-back" onclick="setShirtView('back')" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-3.5 h-3.5"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+<span class="">[ VIEW 02: STATEMENT BACK ]</span>
+</button>
+</div>
+<div class="mt-4 p-3 border border-neutral-300 bg-neutral-50 text-xs font-mono text-neutral-600 flex flex-wrap items-center justify-between gap-2">
+<span class="">• Rear: Bold Navy "SORRY MOM I LIKE BAD DECISIONS"</span>
+<span class="text-fieryRed font-bold">• 6x Red Kiss Prints Included</span>
+</div>
+</div>
+<!-- Right: Specs, Size Selector, Chart & CTA -->
+<div class="lg:col-span-5 flex flex-col justify-between">
+<div>
+<span class="font-mono text-xs uppercase tracking-widest text-neutral-400 font-bold block mb-3">[CONSTRUCTION &amp; FIT SPECIFICATIONS]</span>
+<ul class="text-xs sm:text-sm text-neutral-800 space-y-2.5 pb-6 border-b border-black">
+<li class="flex items-start gap-2">
+<span class="font-mono text-obsidian font-bold">—</span>
+<span class=""><strong>Pattern:</strong> Signature pastel sky-blue and optical white vertical pin-striping.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="font-mono text-obsidian font-bold">—</span>
+<span class=""><strong>Cut:</strong> Dropped shoulder, relaxed Cuban resort collar, wide chest drape with structured boxy crop.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="font-mono text-obsidian font-bold">—</span>
+<span class=""><strong>Embellishment:</strong> High-stitch front embroidery with archival cracking-resistant rear print.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="font-mono text-obsidian font-bold">—</span>
+<span class=""><strong>Closure:</strong> White tonal buttons with reinforced front placket.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="font-mono text-obsidian font-bold">—</span>
+<span class=""><strong>Gender Form:</strong> Engineered unisex silhouette crafted to drape universally.</span>
+</li>
+</ul>
+<!-- Interactive Size Picker -->
+<div class="mt-6">
+<div class="flex items-center justify-between mb-3">
+<label class="font-mono text-xs uppercase tracking-widest font-bold text-obsidian">SELECT SIZE:</label>
+<span class="font-mono text-[11px] text-neutral-500">FIT: RELAXED / BOXY</span>
+</div>
+<div class="grid grid-cols-5 gap-1.5" id="shirt-size-picker">
+<button class="shirt-size-opt py-2.5 text-center font-mono text-xs border border-black bg-white hover:bg-neutral-100 transition-colors" data-size="S" onclick="chooseSize('S')" type="button">S</button>
+<button class="shirt-size-opt py-2.5 text-center font-mono text-xs border border-black bg-obsidian text-white font-bold transition-colors" data-size="M" onclick="chooseSize('M')" type="button">M</button>
+<button class="shirt-size-opt py-2.5 text-center font-mono text-xs border border-black bg-white hover:bg-neutral-100 transition-colors" data-size="L" onclick="chooseSize('L')" type="button">L</button>
+<button class="shirt-size-opt py-2.5 text-center font-mono text-xs border border-black bg-white hover:bg-neutral-100 transition-colors" data-size="XL" onclick="chooseSize('XL')" type="button">XL</button>
+<button class="shirt-size-opt py-2.5 text-center font-mono text-xs border border-black bg-white hover:bg-neutral-100 transition-colors" data-size="2XL" onclick="chooseSize('2XL')" type="button">2XL</button>
+</div>
+<p class="font-mono text-[11px] text-neutral-600 mt-2">Active Spec: <span class="font-bold text-obsidian" id="selected-size-text">M (Medium Relaxed)</span></p>
+</div>
+<!-- Size Guide Table -->
+<div class="mt-6 border border-black">
+<div class="bg-bone px-3 py-2 border-b border-black font-mono text-[10px] tracking-widest uppercase font-semibold flex justify-between">
+<span class="">SHIRT SPEC GUIDE (INCHES)</span>
+<span class="">TOLERANCE ±0.5"</span>
+</div>
+<table class="w-full text-left text-xs font-mono">
+<thead>
+<tr class="bg-neutral-100 text-neutral-700 border-b border-black">
+<th class="py-1.5 px-3">SIZE</th>
+<th class="py-1.5 px-3">CHEST</th>
+<th class="py-1.5 px-3">LENGTH</th>
+<th class="py-1.5 px-3">SHOULDER</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-neutral-200">
+<tr class="hover:bg-neutral-50"><td class="py-1.5 px-3 font-bold">S</td><td class="py-1.5 px-3">42"</td><td class="py-1.5 px-3">25.0"</td><td class="py-1.5 px-3">19.5"</td></tr>
+<tr class="hover:bg-neutral-50 bg-bone/50"><td class="py-1.5 px-3 font-bold">M</td><td class="py-1.5 px-3">44"</td><td class="py-1.5 px-3">25.5"</td><td class="py-1.5 px-3">20.5"</td></tr>
+<tr class="hover:bg-neutral-50"><td class="py-1.5 px-3 font-bold">L</td><td class="py-1.5 px-3">46"</td><td class="py-1.5 px-3">26.0"</td><td class="py-1.5 px-3">21.5"</td></tr>
+<tr class="hover:bg-neutral-50"><td class="py-1.5 px-3 font-bold">XL</td><td class="py-1.5 px-3">48"</td><td class="py-1.5 px-3">26.5"</td><td class="py-1.5 px-3">22.5"</td></tr>
+<tr class="hover:bg-neutral-50"><td class="py-1.5 px-3 font-bold">2XL</td><td class="py-1.5 px-3">50"</td><td class="py-1.5 px-3">27.0"</td><td class="py-1.5 px-3">23.5"</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- WhatsApp CTA -->
+<div class="mt-8 pt-6 border-t border-black">
+<a class="w-full py-4 bg-obsidian hover:bg-neutral-800 text-white font-mono text-xs tracking-editorial uppercase flex items-center justify-center gap-3 transition-all border border-black shadow active:scale-95 group" href="https://wa.me/919574870104?text=Hi%20GEN%20%CE%A9%2C%20I%20want%20to%20order%20the%20Boxy%20Fit%20Pinstripe%20Shirt%20(%E2%80%9CSORRY%20MOM%E2%80%9D)%20in%20Size%20M%20priced%20at%20%E2%82%B9999.%20Please%20let%20me%20know%20availability%20and%20payment%20details." id="shirt-wa-btn" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-waGreen group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+<span class="">ORDER SHIRT ON WHATSAPP • ₹999</span>
+</a>
+<div class="mt-3 flex items-center justify-between text-[11px] font-mono text-neutral-500">
+<span class="">[✓ DIRECT STYLIST CONFIRMATION]</span>
+<span class="">[NO ONLINE PAYMENT GATEWAYS]</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: UnisexShirtSection -->
+<!-- BEGIN: WomensSection -->
+<section class="py-20 lg:py-24 bg-bone border-b border-black" data-purpose="product-womens-babytees" id="womens-section">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-6 border-b border-black">
+<div>
+<span class="font-mono text-xs uppercase tracking-editorial text-deluluPink font-bold">[02] WOMEN'S EDITIONS</span>
+<h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tighter mt-2 text-obsidian">BOXY FIT BABY TEES</h2>
+<p class="text-neutral-500 font-mono text-xs mt-1">CULTURE-ROOTED GRAPHICS / RIBBED CREWNECK / CROPPED BOXY DRAPE</p>
+</div>
+<div class="mt-4 md:mt-0 text-left md:text-right">
+<div class="flex items-baseline gap-3 md:justify-end">
+<span class="text-3xl sm:text-4xl font-black text-obsidian">₹599.00</span>
+<span class="text-lg text-neutral-400 line-through">₹999.00</span>
+</div>
+<span class="inline-block mt-1 font-mono text-[10px] bg-obsidian text-white px-2 py-0.5 uppercase tracking-widest font-semibold">SAVE 40% // LIMITED DROP</span>
+</div>
+</div>
+<!-- 2 Baby Tees Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+<!-- Card 1: Delulu -->
+<article class="bg-white border border-black p-6 sm:p-8 flex flex-col justify-between hover:shadow-lg transition-shadow">
+<div>
+<div class="flex items-center justify-between font-mono text-xs pb-3 border-b border-neutral-200 mb-6">
+<span class="text-deluluPink font-bold uppercase tracking-wider">[EDITION 01 // #DELULU]</span>
+<span class="text-neutral-500">[SPEC-GSM: 220]</span>
+</div>
+<div class="bg-bone border border-neutral-200 aspect-square w-full p-4 flex items-center justify-center overflow-hidden group">
+<img alt="DELULU IS THE SOLULU Baby Tee" class="object-contain w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfpFgRfrSQGYnQcbYmbuB_ASvlVFHvWkOmU-aoy6zIxNI_8kz8eV7h14FS81z0jPUGFLGaepCyten1FPj2olBMk94nU2QasjHHZGOVJlMButZH9pgiJSc_37N9wlKUvlWH_CbpQXRJaDVklXOaX_gVgOikJoJ8lFyJlSPM7cVsbS6sDgimVdRs30RQtt5YoOTjaVmybuyAYDGNXUpvgX2tfBRKXfiNyGfeg-Gg8zXKHh5w7iCMyNgt9pjc5iNDdYxazg">
+</div>
+<h3 class="text-2xl sm:text-3xl font-black uppercase tracking-tighter mt-6 text-obsidian">DELULU IS THE SOLULU</h3>
+<p class="font-mono text-xs text-neutral-500 uppercase mt-1">CRISP OPTIC WHITE // MAGENTA ANATOMICAL HEART GRAPHIC</p>
+<p class="text-sm text-neutral-700 mt-4 leading-relaxed">
+            Cut in an iconic boxy baby-tee profile. Features vibrant high-density typography nested into an anatomical heart silhouette. Designed to match low-rise denim, pleated skirts, or cargo trousers.
+          </p>
+<div class="mt-4 flex flex-wrap gap-2 text-[10px] font-mono uppercase">
+<span class="bg-bone px-2 py-1 border border-neutral-300">100% Combed Cotton</span>
+<span class="bg-bone px-2 py-1 border border-neutral-300">Anti-fade Pigment</span>
+<span class="bg-bone px-2 py-1 border border-neutral-300">Sizes: XS, S, M, L, XL</span>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-black">
+<div class="flex items-baseline justify-between mb-4">
+<span class="text-2xl font-black font-mono">₹599.00</span>
+<span class="text-xs font-mono text-neutral-500 line-through">₹999.00</span>
+</div>
+<a class="w-full py-3.5 bg-obsidian hover:bg-neutral-800 text-white font-mono text-xs tracking-editorial uppercase flex items-center justify-center gap-2.5 transition-colors border border-black active:scale-95 group" href="https://wa.me/919574870104?text=Hi%20GEN%20%CE%A9%2C%20I%20want%20to%20order%20the%20DELULU%20IS%20THE%20SOLULU%20White%20Baby%20Tee%20(priced%20at%20%E2%82%B9599).%20Please%20confirm%20size%20options." rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-waGreen group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+<span class="">ORDER WHITE VIA WHATSAPP</span>
+</a>
+</div>
+</article>
+<!-- Card 2: Kaleshi Aurat -->
+<article class="bg-white border border-black p-6 sm:p-8 flex flex-col justify-between hover:shadow-lg transition-shadow">
+<div>
+<div class="flex items-center justify-between font-mono text-xs pb-3 border-b border-neutral-200 mb-6">
+<span class="text-fieryRed font-bold uppercase tracking-wider">[EDITION 02 // #KALESHIAURAT]</span>
+<span class="text-neutral-500">[SPEC-GSM: 220]</span>
+</div>
+<div class="bg-obsidian border border-black aspect-square w-full p-4 flex items-center justify-center overflow-hidden group">
+<img alt="KALESHI AURAT Black Boxy Fit Baby Tee" class="object-contain w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdLHl7u5T6HLGxNxAh0Ruq3bfwzoDngz_lHLRNIdLOGXfb_-xiVBRiasZRY3D9fZkC1OdrnpcWsKckssPp7bB1DMJzTkTUOL58ZkVp_i0sFhgFFGg4Q3ktsy-xeX8voZJRxM4OV4t12H6vyU2ryEttaZklR8DNMF9ttpC8aN18Fz3BHJtp1-3vDmF-2eK3GjdKeiKsbz0uKVIEMq5_ffcz8KjxU6pIIg_M1h2MFkyNy3_Qpt3aqRsDxNHodX1OCaGEvA">
+</div>
+<h3 class="text-2xl sm:text-3xl font-black uppercase tracking-tighter mt-6 text-obsidian">KALESHI AURAT</h3>
+<p class="font-mono text-xs text-neutral-500 uppercase mt-1">JET OBSIDIAN BLACK // TOWERING CONDENSED RED GOTHIC PRINT</p>
+<p class="text-sm text-neutral-700 mt-4 leading-relaxed">
+            Unfiltered, audacious, and strictly iconic. Stamped with towering red condensed gothic lettering on deep pitch-black combed cotton. Structured waist hem prevents excessive ride-up while maintaining edge.
+          </p>
+<div class="mt-4 flex flex-wrap gap-2 text-[10px] font-mono uppercase">
+<span class="bg-bone px-2 py-1 border border-neutral-300">Heavyweight Combed Rib</span>
+<span class="bg-bone px-2 py-1 border border-neutral-300">Cracking-Resistant Ink</span>
+<span class="bg-bone px-2 py-1 border border-neutral-300">Sizes: XS, S, M, L, XL</span>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-black">
+<div class="flex items-baseline justify-between mb-4">
+<span class="text-2xl font-black font-mono">₹599.00</span>
+<span class="text-xs font-mono text-neutral-500 line-through">₹999.00</span>
+</div>
+<a class="w-full py-3.5 bg-obsidian hover:bg-neutral-800 text-white font-mono text-xs tracking-editorial uppercase flex items-center justify-center gap-2.5 transition-colors border border-black active:scale-95 group" href="https://wa.me/919574870104?text=Hi%20GEN%20%CE%A9%2C%20I%20want%20to%20order%20the%20KALESHI%20AURAT%20Black%20Baby%20Tee%20(priced%20at%20%E2%82%B9599).%20Please%20confirm%20size%20options." rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-waGreen group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+<span class="">ORDER BLACK VIA WHATSAPP</span>
+</a>
+</div>
+</article>
+</div>
+<!-- Accurate Size Guide Table for Baby Tees -->
+<div class="mt-12 bg-white border border-black p-6 sm:p-8">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-black gap-2">
+<h4 class="font-mono text-xs uppercase tracking-widest font-bold">[BABY TEES ACCURATE SPEC GUIDE]</h4>
+<span class="font-mono text-[11px] text-neutral-500">ALL MEASUREMENTS IN INCHES // PRE-SHRUNK FABRIC</span>
+</div>
+<div class="overflow-x-auto custom-scrollbar mt-4">
+<table class="w-full text-left text-xs font-mono">
+<thead>
+<tr class="bg-neutral-100 text-neutral-700 border-b border-black">
+<th class="py-2.5 px-4">SIZE</th>
+<th class="py-2.5 px-4">BUST (CHEST)</th>
+<th class="py-2.5 px-4">BODY LENGTH</th>
+<th class="py-2.5 px-4">SHOULDER WIDTH</th>
+<th class="py-2.5 px-4">SLEEVE LENGTH</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-neutral-200">
+<tr class="hover:bg-neutral-50"><td class="py-2 px-4 font-bold">XS</td><td class="py-2 px-4">32"</td><td class="py-2 px-4">18.5"</td><td class="py-2 px-4">13.5"</td><td class="py-2 px-4">5.0"</td></tr>
+<tr class="hover:bg-neutral-50 bg-bone/50"><td class="py-2 px-4 font-bold">S</td><td class="py-2 px-4">34"</td><td class="py-2 px-4">19.0"</td><td class="py-2 px-4">14.0"</td><td class="py-2 px-4">5.2"</td></tr>
+<tr class="hover:bg-neutral-50"><td class="py-2 px-4 font-bold">M</td><td class="py-2 px-4">36"</td><td class="py-2 px-4">19.5"</td><td class="py-2 px-4">14.5"</td><td class="py-2 px-4">5.5"</td></tr>
+<tr class="hover:bg-neutral-50 bg-bone/50"><td class="py-2 px-4 font-bold">L</td><td class="py-2 px-4">38"</td><td class="py-2 px-4">20.0"</td><td class="py-2 px-4">15.0"</td><td class="py-2 px-4">5.8"</td></tr>
+<tr class="hover:bg-neutral-50"><td class="py-2 px-4 font-bold">XL</td><td class="py-2 px-4">40"</td><td class="py-2 px-4">20.5"</td><td class="py-2 px-4">15.5"</td><td class="py-2 px-4">6.0"</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- END: WomensSection -->
+<!-- BEGIN: CraftGridSection -->
+<section class="py-20 lg:py-24 bg-white border-b border-black" data-purpose="craft-and-engineering" id="craft-section">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-2xl mb-12">
+<span class="font-mono text-xs uppercase tracking-editorial text-neutral-500 font-bold">[04] ARCHITECTURE &amp; CRAFTSMANSHIP</span>
+<h2 class="text-3xl sm:text-4xl font-black uppercase tracking-tighter mt-2">ENGINEERED FOR WEAR &amp; IMPACT</h2>
+</div>
+<!-- 4-Column Technical Specs Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border border-black divide-y md:divide-y-0 md:divide-x divide-black bg-white">
+<!-- Feature 1 -->
+<div class="p-6 sm:p-8 flex flex-col justify-between hover:bg-bone transition-colors">
+<span class="font-mono text-xs text-neutral-400 font-bold mb-6">[SPEC: MAT-01]</span>
+<div>
+<h3 class="font-black text-base uppercase tracking-tight mb-2">HEAVYWEIGHT PRESTIGE COTTON</h3>
+<p class="text-xs text-neutral-600 leading-relaxed font-mono">
+            Crafted from tightly knit long-staple cotton yarn. Holds structured boxy silhouette without sagging after repeated wash cycles.
+          </p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="p-6 sm:p-8 flex flex-col justify-between hover:bg-bone transition-colors">
+<span class="font-mono text-xs text-neutral-400 font-bold mb-6">[SPEC: EMB-02]</span>
+<div>
+<h3 class="font-black text-base uppercase tracking-tight mb-2">ARCHIVAL DENSE EMBROIDERY</h3>
+<p class="text-xs text-neutral-600 leading-relaxed font-mono">
+            Front chest insignia features high thread count industrial lock-stitching that provides rich tactile relief and zero fraying.
+          </p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="p-6 sm:p-8 flex flex-col justify-between hover:bg-bone transition-colors">
+<span class="font-mono text-xs text-neutral-400 font-bold mb-6">[SPEC: CUT-03]</span>
+<div>
+<h3 class="font-black text-base uppercase tracking-tight mb-2">PROPRIETARY BOXY DRAPE</h3>
+<p class="text-xs text-neutral-600 leading-relaxed font-mono">
+            Custom armhole drop and shortened torso proportion engineered to give the wearer an effortless high-fashion runway profile.
+          </p>
+</div>
+</div>
+<!-- Feature 4 -->
+<div class="p-6 sm:p-8 flex flex-col justify-between hover:bg-bone transition-colors">
+<span class="font-mono text-xs text-neutral-400 font-bold mb-6">[SPEC: SVC-04]</span>
+<div>
+<h3 class="font-black text-base uppercase tracking-tight mb-2">ZERO FRICTION CONCIERGE</h3>
+<p class="text-xs text-neutral-600 leading-relaxed font-mono">
+            No robotic chatbots or automated accounts. Real human styling advice, size confirmation, and live tracking delivered via WhatsApp.
+          </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CraftGridSection -->
+<!-- BEGIN: WhatsAppConciergeSection -->
+<section class="py-20 lg:py-28 bg-obsidian text-white relative overflow-hidden border-b border-black" data-purpose="whatsapp-concierge-system">
+<!-- Giant Monogram Watermark -->
+<div class="pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/4 opacity-[0.03] text-[50vw] font-black leading-none text-white select-none">
+    Ω
+  </div>
+<div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-neutral-900 border border-neutral-700 rounded-full text-[10px] font-mono tracking-widest text-waGreen uppercase mb-4">
+<span class="w-2 h-2 rounded-full bg-waGreen animate-pulse"></span>
+        DIRECT CONCIERGE DESK ONLINE
+      </div>
+<h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tighter">
+        SKIP THE CART. <br>
+        DIRECT WHATSAPP CONCIERGE.
+      </h2>
+<p class="text-neutral-400 text-sm sm:text-base mt-4 font-normal">
+        Instant human confirmation. Connect with our styling team directly at <span class="text-white font-mono font-bold">+91 95748 70104</span> to verify fits, reserve sizes, and receive courier tracking.
+      </p>
+</div>
+<!-- Realistic WhatsApp Chat Mockup Card -->
+<div class="max-w-md mx-auto bg-[#121b22] border border-neutral-800 rounded-2xl p-4 shadow-2xl mb-8">
+<!-- Chat Header -->
+<div class="flex items-center justify-between pb-3 border-b border-neutral-800">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-neutral-800 border border-neutral-700 flex items-center justify-center font-black text-sm text-white">
+            Ω
+          </div>
+<div>
+<p class="text-xs font-bold leading-tight text-white">GEN Ω Concierge Stylist</p>
+<p class="text-[10px] font-mono text-waGreen flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-waGreen inline-block"></span> active now
+            </p>
+</div>
+</div>
+<span class="text-[11px] font-mono text-neutral-400">+91 95748 70104</span>
+</div>
+<!-- Chat Preview Flow -->
+<div class="py-4 space-y-3 font-mono text-xs">
+<!-- User Message -->
+<div class="flex justify-end">
+<div class="bg-[#005C4B] text-white p-3 rounded-xl rounded-tr-none max-w-[85%] text-[11px] leading-relaxed shadow">
+<p class="">Hi GEN Ω, I want to order the <strong>Boxy Fit Pinstripe Shirt</strong> in <strong>Size M</strong> (₹999). Is it in stock?</p>
+<span class="text-[9px] text-neutral-300 block text-right mt-1">11:15 AM ✓✓</span>
+</div>
+</div>
+<!-- Stylist Reply -->
+<div class="flex justify-start">
+<div class="bg-[#1f2c34] text-white p-3 rounded-xl rounded-tl-none max-w-[85%] text-[11px] leading-relaxed border border-neutral-700/50 shadow">
+<p class="">Hey! Yes, Drop 01 in Size M is packed and ready. Shall we lock it with Express All-India shipping?</p>
+<span class="text-[9px] text-neutral-400 block text-right mt-1">11:16 AM</span>
+</div>
+</div>
+</div>
+<!-- Action Button -->
+<a class="w-full mt-2 py-3.5 bg-waGreen hover:bg-[#1EBE5D] text-obsidian font-mono text-xs font-bold tracking-wider uppercase rounded-xl flex items-center justify-center gap-2 transition-all active:scale-95" href="https://wa.me/919574870104?text=Hi%20GEN%20%CE%A9%2C%20I%20am%20ready%20to%20place%20my%20order%20from%20Drop%2001." rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-obsidian" viewBox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+<span class="">CHAT DIRECTLY WITH STYLIST</span>
+</a>
+</div>
+<div class="text-center font-mono text-xs text-neutral-400">
+      Direct Concierge Desk: <a class="underline hover:text-white font-bold text-white" href="tel:+919574870104">+91 95748 70104</a> (10:00 AM – 8:00 PM IST)
+    </div>
+</div>
+</section>
+<!-- END: WhatsAppConciergeSection -->
+<!-- BEGIN: MinimalistFooter -->
+<footer class="bg-white py-16 relative overflow-hidden" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-black">
+<!-- Brand Profile -->
+<div class="md:col-span-2">
+<div class="flex items-center gap-2 mb-4">
+<span class="text-3xl font-black tracking-tighter">GEN</span>
+<span class="text-fieryRed text-4xl leading-none">Ω</span>
+</div>
+<p class="text-neutral-600 text-xs sm:text-sm max-w-sm leading-relaxed font-normal">
+          Avant-garde haute streetwear label designing exaggerated boxy staples and culturally provocative cuts for Drop 01.
+        </p>
+</div>
+<!-- Directory -->
+<div>
+<h5 class="font-mono text-xs uppercase tracking-widest font-bold text-obsidian mb-4">[COLLECTION DIRECTORY]</h5>
+<ul class="space-y-2 font-mono text-xs text-neutral-600">
+<li class=""><a class="hover:text-obsidian transition-colors" href="#unisex-section">→ Boxy Pinstripe Shirt (₹999)</a></li>
+<li class=""><a class="hover:text-obsidian transition-colors" href="#womens-section">→ Delulu Baby Tee (₹599)</a></li>
+<li class=""><a class="hover:text-obsidian transition-colors" href="#womens-section">→ Kaleshi Aurat Tee (₹599)</a></li>
+<li class=""><a class="hover:text-obsidian transition-colors" href="#about-section">→ Brand Philosophy</a></li>
+</ul>
+</div>
+<!-- Concierge & Care -->
+<div>
+<h5 class="font-mono text-xs uppercase tracking-widest font-bold text-obsidian mb-4">[CONCIERGE &amp; CARE]</h5>
+<ul class="space-y-2 font-mono text-xs text-neutral-600">
+<li class="">WhatsApp: <a class="font-bold text-obsidian hover:underline" href="https://wa.me/919574870104" rel="noopener noreferrer" target="_blank">+91 95748 70104</a></li>
+<li class="">Hours: Mon – Sat / 10 AM – 8 PM IST</li>
+<li class="">Courier: All India Express Delivery</li>
+<li class="">Guarantee: 7-Day Size Exchange Policy</li>
+</ul>
+</div>
+</div>
+<!-- Oversized GEN Ω Watermark Banner -->
+<div class="py-12 border-b border-black text-center overflow-hidden">
+<span class="font-black text-6xl sm:text-8xl md:text-9xl tracking-tighter uppercase select-none block leading-none text-black">
+        GEN Ω</span>
+</div>
+<!-- Bottom Metadata -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between font-mono text-[11px] text-neutral-500 gap-4">
+<div class="">
+        © 2026 GEN Ω. ALL RIGHTS RESERVED. DESIGNED FOR THE UNFILTERED.
+      </div>
+<div class="flex gap-6 uppercase tracking-widest">
+<span class="">NO FAST FASHION</span>
+<span class="">•</span>
+<span class="">INDUSTRIAL SPEC</span>
+<span class="">•</span>
+<span class="">MADE IN INDIA</span>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MinimalistFooter -->
+<!-- BEGIN: InteractiveScripts -->
+<script data-purpose="interaction-manager">
+  // Lucide initialization
+  lucide.createIcons();
+
+  // Gallery Front/Back Switcher
+  const imgFront = document.getElementById('shirt-img-front');
+  const imgBack = document.getElementById('shirt-img-back');
+  const btnTabFront = document.getElementById('btn-tab-front');
+  const btnTabBack = document.getElementById('btn-tab-back');
+  const badgeTitle = document.getElementById('shirt-badge-title');
+
+  function setShirtView(view) {
+    if (view === 'front') {
+      imgFront.classList.remove('hidden');
+      imgBack.classList.add('hidden');
+      btnTabFront.classList.add('bg-obsidian', 'text-white');
+      btnTabFront.classList.remove('bg-white', 'text-neutral-700');
+      btnTabBack.classList.remove('bg-obsidian', 'text-white');
+      btnTabBack.classList.add('bg-white', 'text-neutral-700');
+      badgeTitle.textContent = 'FRONT VIEW // "GEN Ω" CHEST EMBROIDERY';
+    } else {
+      imgFront.classList.add('hidden');
+      imgBack.classList.remove('hidden');
+      btnTabBack.classList.add('bg-obsidian', 'text-white');
+      btnTabBack.classList.remove('bg-white', 'text-neutral-700');
+      btnTabFront.classList.remove('bg-obsidian', 'text-white');
+      btnTabFront.classList.add('bg-white', 'text-neutral-700');
+      badgeTitle.textContent = 'BACK VIEW // "SORRY MOM I LIKE BAD DECISIONS"';
+    }
+  }
+
+  // Size Selector Manager
+  let activeSize = 'M';
+  const shirtWaBtn = document.getElementById('shirt-wa-btn');
+  const sizeTextDisplay = document.getElementById('selected-size-text');
+
+  const sizeDescriptions = {
+    'S': 'S (Small Relaxed 42")',
+    'M': 'M (Medium Relaxed 44")',
+    'L': 'L (Large Relaxed 46")',
+    'XL': 'XL (Extra Large Relaxed 48")',
+    '2XL': '2XL (Double Extra Large Relaxed 50")'
+  };
+
+  function chooseSize(size) {
+    activeSize = size;
+    const buttons = document.querySelectorAll('.shirt-size-opt');
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-size') === size) {
+        btn.classList.add('bg-obsidian', 'text-white', 'font-bold');
+        btn.classList.remove('bg-white', 'text-neutral-700');
+      } else {
+        btn.classList.remove('bg-obsidian', 'text-white', 'font-bold');
+        btn.classList.add('bg-white', 'text-neutral-700');
+      }
+    });
+
+    sizeTextDisplay.textContent = sizeDescriptions[size] || size;
+    const encodedMsg = encodeURIComponent(`Hi GEN Ω, I want to order the Boxy Fit Pinstripe Shirt (“SORRY MOM”) in Size ${size} priced at ₹999. Please let me know availability and payment details.`);
+    shirtWaBtn.href = `https://wa.me/919574870104?text=${encodedMsg}`;
+  }
+</script>
+<!-- END: InteractiveScripts -->
+
+
+</body></html>
